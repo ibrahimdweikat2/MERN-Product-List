@@ -20,9 +20,8 @@ const Home = () => {
               <h3 className='w-75 text-center'>{item.name}</h3>
               <p>{item.description}</p>
             </div>
-            <div className='d-flex justify-content-between align-items-center'>
+            <div >
               <p className='text-muted'>{`Brand: ${item.brand}`}</p>
-              <i className="fa-solid fa-bars me-4 btn"></i>
             </div>
           </div>
         ))
